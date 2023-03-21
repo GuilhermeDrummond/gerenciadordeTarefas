@@ -4,13 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NextTask</title>
     <link rel="stylesheet" href="style.css">
-    <script src="dom.js"></script>
+
 </head>
+
 <body>
-    <h1>DOM</h1>
-    <p>Iniciando estudos DOM</p>
-    <button>Clique Aqui</button>
+
+    <h1 id="title">NexTask:</h1>
+    <div class="input">
+        <input placeholder="Nos diga qual a sua próxima tarefa :)" type="text" id="newTask">
+
+        <select name="horario" id="horario">
+            <option value="Morning">Horário</option>
+            <option value="Morning">06:00</option>
+            <option value="Morning">07:00</option>
+            <option value="Morning">08:00</option>
+            <option value="Morning">09:00</option>
+        </select>
+        <button type="submit" value="enviar">Salvar</button>
+    </div>
+
+    <h2>Aqui estam suas tarefas:</h2>
+    <p id="paragrafo">Guilherme</p>
+
+    <script src="index.js"></script>
+    
 </body>
 </html>

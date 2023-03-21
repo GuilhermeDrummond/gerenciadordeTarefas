@@ -1,4 +1,41 @@
 body {
-    background-color: rgb(29, 29, 114);
-    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(19, 104, 62);
+    color: aliceblue; 
+    margin-top: 60px;
 }
+
+h1 {
+    font-family: 'fantasy', sans-serif !important;
+    font-size: 2rem;
+}
+
+h2 {
+    margin-top: 65px;
+    font-family: 'fantasy', sans-serif !important;
+    font-size: 21px;
+}
+
+input {
+    height: 30px;
+    width: 330px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+button {
+    height: 35px;
+    border-radius: 5px;
+}
+
+select {
+    height: 35px;
+    width: 80px;
+    border-radius: 5px;
+}
+
+ 

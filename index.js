@@ -1,3 +1,5 @@
-var p1 = document.getElementById('paragrafo');
+function saveTask() {
+    let task = document.getElementById("newTask");
 
-console.log(p1);
+    console.log(task.value);
+}

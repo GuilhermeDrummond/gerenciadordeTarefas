@@ -3,9 +3,23 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(19, 104, 62);
-    color: aliceblue; 
+    background-color: rgb(58, 63, 61);
+    color: rgb(141, 34, 228); 
     margin-top: 60px;
+}
+
+.container {
+    background-color: black;
+    width: 40%;
+    height: 800px;
+    border-radius: 25px;
+}
+
+.all {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 90px;
 }
 
 h1 {
@@ -19,23 +33,31 @@ h2 {
     font-size: 21px;
 }
 
-input {
-    height: 30px;
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 60px;
     width: 330px;
-    border-radius: 5px;
-    padding-left: 10px;
     margin-top: 10px;
 }
 
+input {
+    width: 70%;
+    height: 35px;
+    padding-left: 12px;
+    border-radius: 20px;
+}
+
 button {
-    height: 35px;
-    border-radius: 5px;
+    width: 15%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(63, 218, 63);
+
 }
 
-select {
-    height: 35px;
-    width: 80px;
-    border-radius: 5px;
+li {
+    margin-top: 20px;
 }
-
- 

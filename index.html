@@ -11,25 +11,32 @@
 
 <body>
 
-    <h1 id="title">NexTask:</h1>
-    <div class="input">
-        <input placeholder="Nos diga qual a sua próxima tarefa :)" type="text" id="newTask">
+    <div class="container">
 
-        <select name="horario" id="horario">
-            <option value="Morning">Horário</option>
-            <option value="Morning">06:00</option>
-            <option value="Morning">06:30</option>
-            <option value="Morning">07:00</option>
-            <option value="Morning">07:30</option>
-            <option value="Morning">08:00</option>
-            <option value="Morning">08:30</option>
-            <option value="Morning">09:00</option>
-        </select>
-        <button onclick="saveTask()" type="submit" value="enviar">Salvar</button>
+        <div class="all">
+
+            <h1 id="title">NexTask:</h1>
+            <div class="input">
+                <input placeholder="Nos diga qual a sua próxima tarefa :)" type="text" id="newTask">
+
+                <button onclick="saveTaskHour()" type="submit" value="enviar">+</button>
+            </div>
+
+            <h2>Aqui estão suas tarefas:</h2>
+
+            <div class="urTasks">
+                <ul id="listadeTarefas">
+                    <li>TASK</li>
+                    <li>TASK</li>
+                    <li>TASK</li>
+                    <li>TASK</li>
+                    <li>TASK</li>
+                    <li>TASK</li>
+                
+                </ul>
+            </div>
+        </div>
     </div>
-
-    <h2>Aqui estam suas tarefas:</h2>
-    <p id="paragrafo">Guilherme</p>
 
     <script src="index.js"></script>
     

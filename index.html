@@ -19,21 +19,27 @@
             <div class="input">
                 <input placeholder="Nos diga qual a sua próxima tarefa :)" type="text" id="newTask">
 
-                <button onclick="saveTaskHour()" type="submit" value="enviar">+</button>
+                <select name="hour" id="hourSelect">
+                    <option>Horário</option>
+                    <option>06:00</option>
+                    <option>06:00</option>
+                    <option>06:00</option>
+                    <option>06:00</option>
+                    <option>06:00</option>
+                    <option>06:00</option>
+                </select>
             </div>
+
+            <button onclick="saveTaskHour()" type="submit" value="enviar">+</button>
 
             <h2>Aqui estão suas tarefas:</h2>
 
-            <div class="urTasks">
-                <ul id="listadeTarefas">
-                    <li>TASK</li>
-                    <li>TASK</li>
-                    <li>TASK</li>
-                    <li>TASK</li>
-                    <li>TASK</li>
-                    <li>TASK</li>
+            <div class="urTasks" id="suaTask">
                 
+                <ul id="tasks">
+
                 </ul>
+
             </div>
         </div>
     </div>

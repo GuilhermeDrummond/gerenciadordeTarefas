@@ -35,27 +35,46 @@ h2 {
 
 .input {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    height: 60px;
-    width: 330px;
-    margin-top: 10px;
+    gap: 15px;
+    width: 80%;
+    height: 30px;
 }
 
-input {
-    width: 70%;
+.input input {
     height: 35px;
-    padding-left: 12px;
-    border-radius: 20px;
+    width: 70%;
+    border-radius: 12px;
+    padding-left: 15px;
 }
+
+
+.input select {
+    height: 38px;
+    width: 20%;
+    border-radius: 12px;
+    margin-bottom: 7px;
+
+}
+
+
 
 button {
     width: 15%;
     height: 40px;
     border-radius: 10px;
     background-color: rgb(63, 218, 63);
+    margin-top: 25px;
 
+}
+
+#hourSelect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
 }
 
 li {

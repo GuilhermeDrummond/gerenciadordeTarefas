@@ -6,8 +6,8 @@ function saveTaskHour() {
     console.log(task);
     console.log(hour);
     
-    let newIten = document.createElement('li')
-    newIten.innerText('teste')
+    let newIten = document.createElement("li")
+    newIten.innerText = task + " - " + hour
 
     tasks.appendChild(newIten)
 
